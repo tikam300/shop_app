@@ -64,7 +64,8 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
               });
             },
             icon: Icon(
-              Icons.more_vert,
+              // Icons.more_vert,
+              Icons.sort,
             ),
             itemBuilder: (_) => [
               PopupMenuItem(
